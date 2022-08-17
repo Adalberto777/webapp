@@ -4,15 +4,16 @@
 // app.Run();
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddMvc();
 var app = builder.Build();
 
 
+app.UseStaticFiles();
 app.UseRouting();
 
 app.UseEndpoints(e =>
 {
-  // http://localhost:8812/home/index
   e.MapControllerRoute("default", "{controller}/{action}");
 });
 app.Run();
