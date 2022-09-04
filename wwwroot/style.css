@@ -1,17 +1,17 @@
 h1 {
   font-size: 55px;
-  color: blue;
+  color: rgb(0, 0, 0);
 }
 
 body {
-  background: #d6eaf8;
+  background: #3c7095;
 }
 
 .gradient-button {
   text-decoration: none;
   display: inline-block;
   color: white;
-  padding: 20px 30px;
+  padding: 15px 25px;
   margin: 10px 20px;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
