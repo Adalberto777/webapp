@@ -1,3 +1,3 @@
 function hi() {
-  alert("Привет, GB!");
+  alert("Hi, Liliya");
 }
